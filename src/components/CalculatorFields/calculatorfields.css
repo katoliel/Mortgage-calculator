@@ -1,0 +1,166 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.mortgage-amount {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mortgage-row {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+.mortgage-fields {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+label {
+  font-size: 12px;
+  color: #678698;
+  padding-bottom: 5px;
+}
+
+input {
+  padding: 0px;
+  font-size: 14px;
+  outline: 0;
+  border: 0;
+}
+
+.text-input {
+  padding: 8px;
+  font-size: 14px;
+  outline: 0;
+  width: 100%;
+  color: #35556d;
+}
+
+.input-with-currency {
+  display: flex;
+  align-items: center;
+  border: 1px solid #678698;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.field-sign {
+  display: flex;
+  padding: 8px 14px;
+  background-color: #def2fb;
+  color: #35556d;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.input-other {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border: 1px solid #678698;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.radio-fields {
+  display: flex;
+  align-items: center;
+  border: 1px solid #678698;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  background-color: #d3d83e;
+  display: flex;
+  border-radius: 20px;
+  border: 0;
+  padding: 11px 20px 10px 20px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.custom-radio {
+  color: #112a37;
+  display: flex row;
+}
+input[type="radio"] {
+  accent-color: #112a37;
+}
+
+.radio-text {
+  color: #35556d;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.icon {
+  padding-right: 10px;
+  display: flex;
+  width: 25px;
+}
+
+.error {
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clear-link {
+  padding-top: 10px;
+}
+
+a {
+  color: #678698;
+  font-size: 12px;
+}
+
+/* Medium screens */
+@media (max-width: 768px) {
+  .mortgage-row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .mortgage-fields {
+    width: 48%;
+  }
+
+  button {
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clear-link {
+    padding-top: 0;
+    margin-top: 10px;
+  }
+
+  .icon {
+    margin-right: 10px;
+  }
+}

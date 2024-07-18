@@ -1,0 +1,86 @@
+.calculator-left-container {
+  width: 50%;
+  max-width: 400px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.calculator-right-container {
+  width: 50%;
+  max-width: 400px;
+  background-color: #112a37;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 0px 20px 20px 50px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.results {
+  color: white;
+}
+
+.results-text {
+  font-size: 12px;
+  color: #678698;
+}
+
+.repayment-amount {
+  font-size: 38px;
+  font-weight: 600;
+  color: #d3d83e;
+  padding-bottom: 10px;
+}
+
+hr {
+  border: none;
+  border-top: 0.2px solid #678698;
+  padding-bottom: 10px;
+}
+
+.results-box {
+  background-color: #0a1a22;
+  border-top: 3px solid #d3d83e;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+p {
+  padding: 0px;
+  margin: 10px;
+}
+
+.total-result {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* Medium screens */
+@media (max-width: 768px) {
+
+
+  .calculator-right-container {
+    border-radius: 0 0 20px 20px;
+  }
+}

@@ -1,0 +1,29 @@
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  margin: auto;
+  width: 800px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+}
+
+/* Medium screens */
+@media (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .calculator-left-container,
+  .calculator-right-container {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+    padding: 15px;
+  }
+}
